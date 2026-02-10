@@ -1,6 +1,5 @@
-const Index = () => {
-  return <div className="min-h-screen bg-background" />;
-};
+import { Navigate } from "react-router-dom";
 
-export default Index;
-
+export default function Index() {
+  return <Navigate to="/login" replace />;
+}
